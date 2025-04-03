@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "ADDITIONAL_MARGIN": null,
+            "ADHOC_LIMIT": "99999999999",
+            "AMOUNT_UTILIZED": "0.0",
+            "AVAILABLE_BALANCE": "299999999997",
+            "BANK_HOLDING": "99999999999",
+            "CLEAR_BALANCE": "199999999998",
+            "COLLATERALS": null,
+            "LIMIT_SOD": "99999999999",
+            "LIMIT_TYPE": "CAPITAL",
+            "MF_COLLATERAL": "0.0",
+            "MTF_AVAILABLE_BALANCE": "299999999997",
+            "MTF_COLLATERAL": "0.0",
+            "MTF_UTILIZE": "0.0",
+            "MTM_COMBINED": null,
+            "OFS_UTILIZED": null,
+            "OPT_BUY_PRIMIUM_UTILIZE": "0.0",
+            "PAY_OUT_AMT": "0.0",
+            "PEAK_MARGIN": "37910623.64",
+            "PHYSICAL_MARGIN": null,
+            "REALISED_PROFITS": null,
+            "RECEIVABLES": null,
+            "SEG": "A",
+            "SUM_OF_ALL": "299999999997",
+            "UNCLEAR_BALANCE": null
+        }
+    ]
+}

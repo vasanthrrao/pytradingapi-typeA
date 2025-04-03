@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "data": {
+        "ugid": "8a58bcd8-8082-4225-a57a-81bad6634e33",
+        "is_kyc": "True",
+        "is_activate": "True",
+        "is_password_reset": "True",
+        "is_error": "False",
+        "cid": "RAHUL",
+        "nm": "RAHUL",
+        "flag": 0
+    }
+}
