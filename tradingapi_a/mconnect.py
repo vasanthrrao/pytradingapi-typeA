@@ -3,8 +3,8 @@ import json
 import logging
 import requests
 import sys,traceback
-import TradingAPI.exceptions as ex
-from TradingAPI import __config__
+import tradingapi_a.exceptions as ex
+from tradingapi_a import __config__
 from urllib.parse import urljoin
 
 #Creating Default Log file for API

@@ -5,8 +5,8 @@ import logging
 
 parent_dir=os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(parent_dir)
-from TradingAPI.mconnect import *
-from TradingAPI import __config__
+from tradingapi_a.mconnect import *
+from tradingapi_a import __config__
 
 # Create and configure logger
 logging.basicConfig(filename="miraesdk_typeA.log",
