@@ -150,29 +150,39 @@ cd examples/All_Api
 ---
  
 4. 🔑 Update Your Credentials
-Open the file named 'Login.py' (this file is located inside the 'examples/All_Api' directory).
-Locate the lines where the 'user_id' and 'password' variables are defined.
-Replace the placeholder values with your actual trading account credentials. For example:
+Before running any script, you must update your trading account credentials.
+
+Open Login.py, located in the examples/All_Api directory.
+
+Locate the "user_id" and "password" variables.
+
+Replace the placeholder values with your actual credentials:
 user_id = "your_actual_user_id"
 password = "your_actual_password"
+
 5. 🗝️ Set Your API Key
-Open the file named 'config.py' (this file is located within the 'tradingapi_a' directory).
-Find the line that defines the 'API_KEY' variable.
-Update the placeholder value with your legitimate API key. For example:
+Next, configure your API key for authentication.
+
+Open config.py, located within the tradingapi_a directory.
+
+Find the API_KEY variable.
+
+Update the placeholder value with your legitimate API key:
 API_KEY = "your_actual_api_key"
+
 6. ▶️ Run Any Example Script
 You have two primary methods to run your scripts:
-- Using the command line: # In the integrated terminal, execute the following command to run a script:
-Bash
- 
-python Login.py
-You can replace 'Login.py' with the filename of any other script you wish to execute from the 'examples/All_Api' directory, for instance:
-python Order_Placement.py
-- Using the Run icon:
- Using the Run icon:
+-Option 1: Using the command line: # In the integrated terminal, execute the following command to run a script:
+   Bash
+   python Login.py
+   You can replace 'Login.py' with the filename of any other script you wish to execute from the 'examples/All_Api' directory, for instance:
+   python Order_Placement.py
+
+-Option 2: Using the Run Icon in VS Code
  Open any Python file (.py) within the VS Code editor that is located inside the 'examples/All_Api' folder.
  This could be 'Login.py', 'Order_Placement.py', or any other script you wish to run from that directory.
  Once the file is open, click the 'Run' icon (typically a green triangle) located in the top-right corner of the VS Code interface to execute the currently displayed script.
+
 Tip:
 It is crucial to always update your credentials in 'Login.py' and your API key in 'config.py' before running any script for the very first time, and whenever these credentials change.
 
