@@ -124,6 +124,58 @@ logging.info('Testing complete')
 
 ```
 
+**Quick Start Guide: Running Your Script in VS Code**  
+Follow these steps to set up and run your script smoothly.
+ 
+---
+ 
+### 1. 🗂️ Open the Project Folder
+- Launch **Visual Studio Code**.
+- Click on **File > Open Folder**.
+- Select your project directory (e.g., `pytradingapi-typeA-1`) and click **Open**.
+ 
+---
+ 
+### 2. 💻 Open a New Terminal
+- Go to the top menu and click **Terminal > New Terminal**.
+- This will open a terminal window at the bottom of VS Code.
+ 
+---
+ 
+### 3. 📁 Navigate to the Script Directory
+In the terminal, run:
+```bash
+cd examples/All_Api
+ 
+---
+ 
+4. 🔑 Update Your Credentials
+Open the file named 'Login.py' (this file is located inside the 'examples/All_Api' directory).
+Locate the lines where the 'user_id' and 'password' variables are defined.
+Replace the placeholder values with your actual trading account credentials. For example:
+user_id = "your_actual_user_id"
+password = "your_actual_password"
+5. 🗝️ Set Your API Key
+Open the file named 'config.py' (this file is located within the 'tradingapi_a' directory).
+Find the line that defines the 'API_KEY' variable.
+Update the placeholder value with your legitimate API key. For example:
+API_KEY = "your_actual_api_key"
+6. ▶️ Run Any Example Script
+You have two primary methods to run your scripts:
+- Using the command line: # In the integrated terminal, execute the following command to run a script:
+Bash
+ 
+python Login.py
+You can replace 'Login.py' with the filename of any other script you wish to execute from the 'examples/All_Api' directory, for instance:
+python Order_Placement.py
+- Using the Run icon:
+ Using the Run icon:
+ Open any Python file (.py) within the VS Code editor that is located inside the 'examples/All_Api' folder.
+ This could be 'Login.py', 'Order_Placement.py', or any other script you wish to run from that directory.
+ Once the file is open, click the 'Run' icon (typically a green triangle) located in the top-right corner of the VS Code interface to execute the currently displayed script.
+Tip:
+It is crucial to always update your credentials in 'Login.py' and your API key in 'config.py' before running any script for the very first time, and whenever these credentials change.
+
 ### Running Unit Tests
 
 This requires having pytest library pre installed. You can install the same via pip:
