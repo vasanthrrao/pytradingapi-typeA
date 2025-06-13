@@ -5,3 +5,4 @@ cd typea
 venv\Scripts\activate 
 py refreshToken.py
 py app.py
+py tapp.py

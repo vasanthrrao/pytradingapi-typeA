@@ -93,9 +93,9 @@ class CTMarkov97STG:
 
         print(data)
 
-        data.to_csv("3redData/Chartink_result.csv") 
+        data.to_csv("data/3redData/Chartink_result.csv") 
 
-        file_path = "3redData/Chartink_result.csv"
+        file_path = "data/3redData/Chartink_result.csv"
 
         # MySQL connection
         db = mysql.connector.connect(
